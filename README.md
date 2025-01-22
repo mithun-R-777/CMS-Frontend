@@ -25,6 +25,8 @@ The CMS-Frontend is a web application that allows users to manage and create con
 
 ## Technologies Used
 
+**FrontEnd**
+
 - Angular
 - TypeScript
 - HTML5
@@ -56,13 +58,11 @@ To get started with the project, follow these steps:
 
 The application will be available at http://localhost:4200.
 
-## Contributors
+## Backend
 
--Mithun Ravichandran
+**Refer**
 
--Dhananjay Kumar
-
--Lankesh Nayak
+https://github.com/mithun-R-777/Content-management-system
 
 
 
