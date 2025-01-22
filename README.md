@@ -30,6 +30,10 @@ The CMS-Frontend is a web application that allows users to manage and create con
 - HTML5
 - CSS3
 
+## For Backend
+
+git clone https://github.com/mithun-R-777/CMS-Backend.git
+
 ## Installation
 
 To get started with the project, follow these steps: 
