@@ -1,68 +1,59 @@
-# CMS-Frontend
+# CmsFrontend
 
-This is the frontend part of our Content Management System (CMS) project, developed during the Edubridge internship. This project is part of the Certification Program in Java Full Stack course.
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
 
-## Project Details
+## Development server
 
-- **Course Name:** Certification Program in Java Full Stack
-- **Batch Code:** 2024-12830
-- **Enrollment Number:** EBEON1024945756
-- **Team Members:**
-  - Mithun Ravichandran
-  - Dhananjay Kumar
-  - Lankesh Nayak
+To start a local development server, run:
 
-## Project Overview
+```bash
+ng serve
+```
 
-The CMS-Frontend is a web application that allows users to manage and create content. It provides a user-friendly interface for interacting with the backend APIs and managing posts, tags, and user authentication.
+Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-## Features
+## Code scaffolding
 
-- User Authentication (Signup, Login)
-- Post Creation and Management
-- Tag Management
-- Responsive Design
+Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
-## Technologies Used
+```bash
+ng generate component component-name
+```
 
-**FrontEnd**
+For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
 
-- Angular
-- TypeScript
-- HTML5
-- CSS3
+```bash
+ng generate --help
+```
 
-## Installation
+## Building
 
-To get started with the project, follow these steps:
+To build the project run:
 
-1. **Clone the repository:**
+```bash
+ng build
+```
 
-   ```bash
-   git clone https://github.com/yourusername/CMS-Frontend
+This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
 
-2. **Navigate to the project directory:**
+## Running unit tests
 
-   ```bash
-    cd CMS-Frontend
-   
-3. **Install dependencies:**
-   
-   ```bash
-   npm install
+To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
 
-5. **Run the application:**
-   
-   ```bash
-   ng serve
+```bash
+ng test
+```
 
-The application will be available at http://localhost:4200.
+## Running end-to-end tests
 
-## Backend
+For end-to-end (e2e) testing, run:
 
-**Refer**
+```bash
+ng e2e
+```
 
-https://github.com/mithun-R-777/Content-management-system
+Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
+## Additional Resources
 
-
+For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.

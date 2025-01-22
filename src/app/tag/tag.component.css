@@ -1,0 +1,29 @@
+import { Component } from '@angular/core';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { TagService } from '../services/tag.service';
+
+@Component({
+  selector: 'app-tag',
+  templateUrl: './tag.component.html',
+  styleUrls: ['./tag.component.css']
+})
+export class TagComponent {
+  tagForm: FormGroup;
+
+  constructor(private fb: FormBuilder, private tagService: TagService) {
+    this.tagForm = this.fb.group({
+      name: ['', Validators.required]
+    });
+  }
+
+  onSubmit(): void {
+    if (this.tagForm.valid) {
+      this.tagService.addTag(this.tagForm.value).subscribe(response => {
+        console.log('Tag added:', response);
+        // Handle successful tag addition (e.g., clear form)
+      }, error => {
+        console.error('Error adding tag:', error);
+      });
+    }
+  }
+}
