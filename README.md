@@ -56,10 +56,12 @@ To get started with the project, follow these steps:
 
 The application will be available at http://localhost:4200.
 
-##Contributors
+## Contributors
 
 -Mithun Ravichandran
+
 -Dhananjay Kumar
+
 -Lankesh Nayak
 
 
